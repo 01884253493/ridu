@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css form</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    <style>
+
+    
+
+ input{
+     width: 100%;
+     padding: 10px 20px;
+     font-size: 1rem;
+     margin: 20px 0;
+     border:  3px solid salmon;
+     box-sizing: border-box;
+     border-radius: 10px;
+     background-color: yellowgreen;
+ }
+ #search{
+     background-image:url(search.png);
+
+     width: 150px;
+     background-repeat:no-repeat;
+     font-size: 1rem;
+     padding: 15px 40px;
+     background-color: yellowgreen;
+     background-position: 6px 10px;
+     transition:  width 0.5s ease-in-out
+     
+ }
+ #search:hover{
+  background-color: yellow;
+  width: 100%;
+
+ }
+textarea{
+    resize: none;
+    width:50%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: yellow;
+}
+input[type="button"]{
+   width: 20%;
+   border: none;
+   background-color: blueviolet; 
+   padding: 10px;
+   cursor: pointer;
+}
+a:hover{
+    color:rosybrownjj
+}
+input:hover{
+    background-color: black;
+}
+input::placeholder{
+    color: darkred;
+}
+p:hover{
+    background-color: burlywood;
+    color: darkmagenta;
+}
+p::before{
+    color: darkmagenta;
+    font-size: 3rem;
+    content: ">";
+}
+p:first-child{
+    background-color: darkolivegreen;
+}
+::selection{
+    background-color: darkolivegreen;
+    color: darkred;
+    font-size: 3rem;
+}
+.list{
+    background-color: darkseagreen;
+    padding: 10px;
+
+}
+    .list ul{
+      list-style-type: none;
+      font-size: 3rem;
+      
+     list-style-position: inside;
+
+    }
+    .list li::before{
+        content: '\f058';
+        font-family: 'Font Awesome 5 Free';
+        font-weight:bold;
+        display: inline-block;
+        margin: 10px 5px ;
+        font-size: 3rem;
+        color: black;
+
+    }
+    #section1{
+        background-color: cornflowerblue;
+        float: left;
+    }  
+    #section2{
+        background-color:darkolivegreen;
+        float: right;
+    }
+    #section3{
+        background-color: darkmagenta;
+    }
+    #cleardiv{
+        clear: both;
+    }
+    #nav-menu{
+        width: 600px;
+        height: 80px;
+        background-color: darkorange;
+        color: white;
+        margin: 0 auto;
+
+    }
+#nav-menu ul{
+
+}
+#nav-menu ul li{
+list-style-type: none;
+margin: 20px;
+float: left;
+
+}
+#nav-menu ul li a{
+text-decoration: none;
+font-size: 25px;
+cursor: pointer;
+
+}
+#nav-menu ul li a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+<form action="">
+    <label for="fname">First name</label>
+<input type="text" name="fname" id="fname">
+<br/>
+
+
+<label for="lname">last  name</label>
+<input type="text" name="lname" id="lname">
+
+<input type="search" name="search" id="search" placeholder="search">
+<br/>
+
+
+<textarea>Write your comments here</textarea>
+<br/>
+<input type="button" value="submit">
+<input type="button"value="reset">
+
+</form>
+
+<br/>
+<a href="#">tutorial</a>
+<br>
+<p>Sed at sea amet dolor sit aliquyam sit, sanctus eos eos eirmod et duo consetetur sed invidunt no, et sed.<br/>
+
+
+
+
+Mente son prieghi divenuti sí modo ancora sono. Nome in.
+<br/>
+asd dolor gubergren sed ut takimata, erat sit ipsum lorem lorem sea diam eirmod, erat dolor sed amet diam <br/>
+Lorem nonumy justo dolores vero tempor eirmod. Sed kasd elitr sit diam eos aliquyam stet. Sit rebum sea gubergren ut.   </p>
+<br>
+
+<p>   Ofttimes all since true vulgar feels care to none nor joyless, had to left lyres reverie before of had, would.  </p>
+<br>
+<p>   Fühlt hinweggeschwunden euch vom ein hinweggeschwunden zerstreuet faßt froher sehnen ein, euch der steigen diesmal festzuhalten trüben tränen lied froher mich. Auf drängt gut wie sang erschüttert, und euch noch.  </p>
+<br>
+<p>   Wird um jugendlich schauer und bang geisterreich euch einst. Wieder nach vom und ich noch euch noch. Äolsharfe lied vor sich tränen ergreift. Sich lebens was menge stillen mit zauberhauch. </p>
+
+
+<br>
+<input type="text" placeholder="enter name">
+
+<br>
+
+<div class="list">
+
+<ul>
+<li>Riad</li>
+<li>Ishmam</li>
+<li>Shahajan</li>
+<li>tutorial</li>
+
+
+</ul>
+
+
+
+
+</div>
+<div id="section1">
+    <h1>Bangladesh</h1>
+
+</div>
+<div id="section2">
+
+    <h1>Afganistan</h1>
+</div>
+<div id="cleardiv"></div>
+<div id="section3">
+     Sed ipsum ipsum sit magna sit. Et sit nonumy consetetur et et et duo vero. Clita diam nonumy sadipscing stet consetetur, sed dolores stet et diam eirmod dolores ipsum. Diam labore diam diam eos sea et diam sit. Sit magna ipsum gubergren lorem, voluptua ipsum gubergren sanctus ut kasd at consetetur sea, rebum at takimata voluptua clita nonumy ut et diam, amet magna voluptua sed no rebum. Amet dolor takimata sadipscing diam erat lorem, tempor kasd sed ipsum accusam, magna erat duo sed lorem ut eos, invidunt vero gubergren sit justo dolor et diam, stet rebum rebum ipsum dolores ipsum ea vero. Sea magna sed gubergren tempor erat et lorem stet sit. Takimata at voluptua sadipscing amet nonumy labore nonumy dolor takimata, eirmod dolor eirmod tempor invidunt dolor takimata diam, vero et lorem amet lorem. Sanctus sed sanctus accusam et labore, ipsum sadipscing sadipscing dolor sea ipsum sed et et kasd, vero amet lorem magna kasd. Clita sed labore et amet. Dolores dolor no dolores consetetur amet magna eos clita justo, justo est nonumy et consetetur sit ea, diam sea sed stet sit, takimata sadipscing et lorem voluptua, et et takimata magna tempor dolores, ea amet nonumy justo accusam dolores,. 
+
+
+</div>
+<hr/>
+<div id="nav-menu">
+    <ul>
+  <li> <a href="#"> Home</a></li>
+ <li><a href="#">Tutorials</a></li>
+<li><a href="">About</a></li>
+<li><a href="#">Contact</a></li>    
+
+
+</ul>
+
+
+
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
